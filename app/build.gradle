@@ -18,7 +18,7 @@ android {
         }
     }
     buildTypes.each {
-        it.buildConfigField "String" , "OPEN_WEATHER_MAP_API_KEY" ,  "\"COPY YOUR MOVIE DB API KEY HERE\""
+        it.buildConfigField "String" , "Movie_API_KEY" ,  "\"COPY YOUR MOVIE DB API KEY HERE\""
     }
 }
 

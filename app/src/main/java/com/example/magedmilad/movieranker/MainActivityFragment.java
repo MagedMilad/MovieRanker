@@ -183,7 +183,7 @@ public class MainActivityFragment extends Fragment {
 
                 Uri buildUri = Uri.parse(FORECAST_BASE_URL).buildUpon()
                         .appendQueryParameter(sort, params[0] == 0 ? popularity : rating)
-                        .appendQueryParameter(APPID_PARAM, BuildConfig.OPEN_WEATHER_MAP_API_KEY).build();
+                        .appendQueryParameter(APPID_PARAM, BuildConfig.Movie_API_KEY).build();
 
                 URL url = new URL(buildUri.toString());
 

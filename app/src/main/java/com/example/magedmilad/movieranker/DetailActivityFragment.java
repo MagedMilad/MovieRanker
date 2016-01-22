@@ -255,7 +255,6 @@ public class DetailActivityFragment extends Fragment {
         }
 
         void getDetails(int id, boolean Trailer) {
-            final String apiKey = "af9ff5c4f96b3381ad7ca03ea3ce6477";
 
             HttpURLConnection urlConnection = null;
             BufferedReader reader = null;
@@ -267,7 +266,7 @@ public class DetailActivityFragment extends Fragment {
 
 
                 Uri buildUri = Uri.parse(FORECAST_BASE_URL).buildUpon()
-                        .appendQueryParameter(APPID_PARAM, apiKey).build();
+                        .appendQueryParameter(APPID_PARAM, BuildConfig.Movie_API_KEY).build();
 
                 URL url = new URL(buildUri.toString());
 
