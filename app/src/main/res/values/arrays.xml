@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_sort_options">
+        <item>@string/pref_units_most_popular</item>
+        <item>@string/pref_units_label_highest_rated</item>
+        <item>@string/pref_units_label_favorite</item>
+    </string-array>
+
+    <string-array name="pref_sort_values">
+        <item>@string/pref_units_most_popular_val</item>
+        <item>@string/pref_units_label_highest_rated_val</item>
+        <item>@string/pref_units_label_favorite_val</item>
+    </string-array>
+
+
+
+</resources>

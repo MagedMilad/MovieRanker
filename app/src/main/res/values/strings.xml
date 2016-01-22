@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Movie Ranker</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="pref_sort">Sort</string>
+    <string name="pref_units_most_popular">Most Popular</string>
+    <string name="pref_units_label_highest_rated">Highest rated</string>
+    <string name="pref_units_most_popular_val">most_Popular</string>
+    <string name="pref_units_label_highest_rated_val">highest_rated</string>
+    <string name="pref_sort_key">sort</string>
+    <string name="title_activity_detail">Details</string>
+    <string name="pref_units_label_favorite">Favorite</string>
+    <string name="pref_units_label_favorite_val">favorite</string>
+    <string name="action_share">Share</string>
+</resources>
