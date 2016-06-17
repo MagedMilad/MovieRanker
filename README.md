@@ -1,7 +1,7 @@
 # MovieRanker
 Movie Ranker is a project in Udacity's Android Developer Which I made from scratch and it was evaluated by certified Udacity code reviewer and was graded as "Meet Specifications".
 
-The purpose of this project was to built an app,optimized for tablets, to help users discover popular and highly rated movies on the web. 
+The purpose of this project was to built an app optimized for tablets, to help users discover popular and highly rated movies on the web. 
 
 ##Features
 • Discover the most popular, the highest rated movies
